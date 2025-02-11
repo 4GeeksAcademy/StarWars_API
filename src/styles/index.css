@@ -1,3 +1,9 @@
-/* 
-    General Styles
-*/
+nav{
+    background: linear-gradient(rgb(0, 0, 0), rgb(25, 0, 87));
+    color: rgb(216, 188, 29);
+}
+
+footer{
+    background: linear-gradient(rgb(0, 0, 0), rgb(25, 0, 87));
+    color: rgb(216, 188, 29);
+}
