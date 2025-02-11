@@ -29,7 +29,7 @@ export const CardVehiculos = () => {
 							/>
 							<div className="card-body">
 								<h5 className="card-title">{vehiculo.name}</h5>
-								<button className="btn btn-outline-primary mx-2" onClick={() => handleClick(vehiculo)}>Read more...</button>
+								<button className="btn btn-outline-primary mx-2" onClick={() => handleClick(vehiculo)}>Detalles...</button>
 								<button className="btn btn-outline-warning mx-2" onClick={() => handleAddToFavorites(vehiculo)}>❤️</button>
 							</div>
 						</div>

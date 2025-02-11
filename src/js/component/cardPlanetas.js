@@ -29,7 +29,7 @@ export const CardPlanetas = () => {
 							/>
 							<div className="card-body">
 								<h5 className="card-title">{planeta.name}</h5>
-								<button className="btn btn-outline-primary mx-2" onClick={() => handleClick(planeta)}>Read more...</button>
+								<button className="btn btn-outline-primary mx-2" onClick={() => handleClick(planeta)}>Detalles...</button>
 								<button className="btn btn-outline-warning mx-2" onClick={() => handleAddToFavorites(planeta)}>❤️</button>
 							</div>
 						</div>

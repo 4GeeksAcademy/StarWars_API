@@ -21,7 +21,7 @@ export const Navbar = () => {
 			</Link>
 			<Dropdown>
 				<Dropdown.Toggle variant="outline-warning" id="dropdown-favorites">
-					My Favorites
+					Mis favoritos
 				</Dropdown.Toggle>
 
 				<Dropdown.Menu>
@@ -41,7 +41,7 @@ export const Navbar = () => {
 							</Dropdown.Item>
 						))
 					) : (
-						<Dropdown.Item disabled>No favorites added</Dropdown.Item>
+						<Dropdown.Item disabled>No hay favoritos añadidos</Dropdown.Item>
 					)}
 				</Dropdown.Menu>
 			</Dropdown>
